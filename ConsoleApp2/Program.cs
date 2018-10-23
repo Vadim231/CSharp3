@@ -13,7 +13,7 @@ namespace ConsoleApp2
 
             Console.WriteLine(First());
             Console.WriteLine("Введите 6-значное число: ");
-            string a=Console.ReadLine();
+            string a = Console.ReadLine();
             Console.WriteLine(Second(a));
             Third();
             Fourth(3, 7);
@@ -28,6 +28,7 @@ namespace ConsoleApp2
 
         static int First()
         {
+            Console.WriteLine("Введите строку. Нажмите \".\",чтобы закончить");
             int k = 0;
             string i = "";
             while (true)
@@ -101,8 +102,8 @@ namespace ConsoleApp2
 
 
                 } while (e != 46);
-               
-            
+            Console.ReadLine();
+
 
         }
     
